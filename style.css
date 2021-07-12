@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(./assets/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  min-height: 100vh;
+}
+.quote-container {
+  width: 70vw;
+  /* height: 300px; */
+  padding: 25px 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.8);
+}
+.quote-text {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+.quote-author {
+  font-style: italic;
+  margin-top: 20px;
+  font-weight: 300;
+}
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+button {
+  font-size: 1.3rem;
+  outline: none;
+  background: linear-gradient(to right, #42275a, #734b6d);
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  color: #fff;
+  padding: 8px;
+  transition: all 0.5s ease-in-out;
+}
+button:hover {
+  background: #ffc371;
+  color: cornflowerblue;
+  transition: all 0.5s linear;
+  transform: translate(0, 0.3rem);
+}
+/* @media screen and (max-width: 576px) {
+  .quote-container {
+    width: 400px;
+  }
+} */
